@@ -19,4 +19,16 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="page_one">PAGE ONE</string>
     <string name="page_two">PAGE TWO</string>
+    <string name="username">username</string>
+    <string name="_3124">3124</string>
+    <string name="_6408">6408</string>
+    <string name="_564">564</string>
+    <string name="posts">posts</string>
+    <string name="followers">followers</string>
+    <string name="following">following</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="your_name">Your name</string>
+    <string name="bio_here">Bio here</string>
+    <string name="bio_continues">bio continues</string>
+    <string name="yourwebsite_com">yourwebsite.com</string>
 </resources>
