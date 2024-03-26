@@ -12,7 +12,7 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/_0dp"
         android:layout_weight="3"
         android:orientation="horizontal"
         >
@@ -21,21 +21,21 @@
             android:layout_height="wrap_content"
             android:text="@string/chatify"
             android:textColor="@color/white"
-            android:textSize="40sp"
+            android:textSize="@dimen/_40sp"
             android:layout_gravity="center_vertical"
             android:fontFamily="sans-serif-medium"/>
         <ImageView
             android:layout_gravity="center_vertical"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="@dimen/_40dp"
+            android:layout_height="@dimen/_40dp"
             android:src="@drawable/texticon"
             />
     </LinearLayout>
     <LinearLayout
-        android:layout_marginHorizontal="40dp"
+        android:layout_marginHorizontal="@dimen/_40dp"
         android:layout_width="match_parent"
         android:orientation="vertical"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/_0dp"
         android:layout_weight="5">
     <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -45,7 +45,7 @@
             android:background="@drawable/edittext_bottom"
             android:hint="@string/first_name">
             <com.google.android.material.textfield.TextInputEditText
-                android:layout_height="50dp"
+                android:layout_height="@dimen/_50dp"
                 android:id="@+id/name"
                 android:inputType="text"
                 android:textColor="@color/white"
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/last_name">
             <com.google.android.material.textfield.TextInputEditText
-                android:layout_height="50dp"
+                android:layout_height="@dimen/_50dp"
                 android:textColor="@color/white"
                 android:id="@+id/lastname"
                 android:inputType="text"
@@ -74,7 +74,7 @@
             android:textColorHint="@color/lightgrey"
             android:hint="@string/email_id">
             <com.google.android.material.textfield.TextInputEditText
-                android:layout_height="50dp"
+                android:layout_height="@dimen/_50dp"
                 android:textColor="@color/white"
                 android:id="@+id/email"
                 android:inputType="textEmailAddress"
@@ -89,7 +89,7 @@
             android:textColorHint="@color/lightgrey"
             android:hint="@string/password">
             <com.google.android.material.textfield.TextInputEditText
-                android:layout_height="50dp"
+                android:layout_height="@dimen/_50dp"
                 android:id="@+id/password"
                 android:textColor="@color/white"
                 android:inputType="textPassword"
@@ -104,7 +104,7 @@
             android:textColorHint="@color/lightgrey"
             android:hint="@string/retype_password">
             <com.google.android.material.textfield.TextInputEditText
-                android:layout_height="50dp"
+                android:layout_height="@dimen/_50dp"
                 android:id="@+id/tvRePass"
                 android:textColor="@color/white"
                 android:inputType="textPassword"
@@ -119,7 +119,7 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
-            android:layout_marginHorizontal="40dp"
+            android:layout_marginHorizontal="@dimen/_40dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -127,16 +127,16 @@
             <RadioButton
                 android:textColor="@color/lightgrey"
                 android:id="@+id/rbMale"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/_0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="@string/male"/>
 
             <RadioButton
-                android:layout_marginStart="60dp"
+                android:layout_marginStart="@dimen/_60dp"
                 android:textColor="@color/lightgrey"
                 android:id="@+id/rbFemale"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/_0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="@string/female"/>
@@ -148,19 +148,19 @@
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:gravity="center"
-        android:padding="20dp"
+        android:padding="@dimen/_20dp"
         android:layout_height="wrap_content">
         <Button
-            android:layout_width="0dp"
+            android:layout_width="@dimen/_0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="@string/sign_up"
             android:id="@+id/btSignUp"
             android:backgroundTint="@color/yellow"
-            android:layout_marginEnd="30dp"/>
+            android:layout_marginEnd="@dimen/_30dp"/>
         <Button
             android:id="@+id/btExit"
-            android:layout_width="0dp"
+            android:layout_width="@dimen/_0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="@string/exit"
@@ -173,6 +173,6 @@
         android:layout_height="wrap_content"
         android:autoLink="web"
         android:textColor="@color/lightgrey"
-        android:layout_marginVertical="30dp"
+        android:layout_marginVertical="@dimen/_30dp"
         android:text="@string/already_have_an_account_login_now"/>
 </LinearLayout>

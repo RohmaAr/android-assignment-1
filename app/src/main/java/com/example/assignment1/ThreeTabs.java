@@ -54,7 +54,7 @@ public class ThreeTabs extends AppCompatActivity {
 
         });
         llTwo.setOnClickListener(e->{
-            String textSet="PAGE TWO";
+            String textSet="CLICK THE THRID TAB\nTO SEE THE INSTA PROFILE";
             tvFrag.setText(textSet);
             ivFrag.setImageResource(R.drawable.callicon);
 
